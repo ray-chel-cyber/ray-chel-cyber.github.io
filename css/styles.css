@@ -4,11 +4,11 @@
  }
 
  nav {
-    background-color: white;
+    background-color: rgba(238, 166, 190, 0.034);
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 40px;
+    padding: 30px;
     position: fixed;
     top: 0%;
     left: 0%;
@@ -19,12 +19,10 @@
     font-size: 30px;
  }
 
-
-
  #nav-item {
     display: flex;
-    gap: 30px;
-    padding-left: 200px;
+    gap: 50px;
+    padding-left: 140px;
  }
 
  .list-item {
@@ -33,13 +31,13 @@
 
  nav a {
     text-decoration: none;
-    color: darkgreen;
+    color: white;
     font-size: 20px;
  }
 
  
  header {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../assets/images/image20.jpg');
+    background-image:url('../assets/images/image60.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
