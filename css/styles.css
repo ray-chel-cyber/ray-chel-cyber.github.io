@@ -4,7 +4,7 @@
  }
 
  nav {
-    background-color: rgba(238, 166, 190, 0.034);
+    background-color: rgba(255, 255, 255, 0.014);
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -14,6 +14,8 @@
     left: 0%;
     right: 0%;
 
+
+
  }
  .name {
     font-size: 30px;
@@ -21,18 +23,31 @@
 
  #nav-item {
     display: flex;
-    gap: 50px;
+    gap: 70px;
     padding-left: 140px;
  }
 
  .list-item {
     list-style-type: none;
+    
+ }
+
+ .list-item:hover {
+   background-color:pink;
+   padding: 5px 10px;
+ }
+ .list-items {
+   list-style-type:none ;
+ }
+ .list-items:hover {
+   background-color: rgb(220, 220, 240);
+   padding: 5px 10px;
  }
 
  nav a {
     text-decoration: none;
     color: white;
-    font-size: 20px;
+    font-size: 15px;
  }
 
  
@@ -45,3 +60,116 @@
     padding-top: 20%;
 
  }
+button {
+   background-color:white;
+   color: gray;
+   font-size: 14px;
+   border: none;
+   padding: 20px 40px;
+   text-align: center;
+   display: inline-block;
+   border-radius: 12px;
+   cursor: pointer;
+ }
+
+ .button:hover {
+   background-color: pink;
+   color: white;
+}
+.Hero {
+   text-align: justify;
+    color: white;
+    margin-top: 5px;
+    padding-left: 200px;
+}
+.Hero-head {
+   margin-bottom: 1rem;
+   font-size: 20px;
+   font-style: italic;
+ 
+}
+.Hero h1{
+   font-size: 80px;
+}
+.Hero h4 {
+   font-size: 30px; 
+   margin-bottom:1rem;
+}
+.list-it {
+   list-style-type:none ;
+   margin-bottom: 0.6rem;
+   
+} 
+.li a {
+   color: white;
+}
+
+.main {
+   display: flex;
+   padding-left: 10%;
+   padding-right: 10%;
+}
+.flex-container {
+   display: flex;
+   padding-top: 130px;
+   justify-content: space-between;
+   gap: 50px;
+   padding-bottom: 130px;
+
+}
+.text-container1 h4{
+   font-size: 50px;
+   margin-bottom: 1rem;
+   color: rgb(236, 136, 153);
+   
+}
+.text-container1 {
+   width: 50%;
+   color: gray;
+}
+.text-container2 {
+   width: 50%;
+   color: gray;
+}
+.numbers {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   gap: 10px;
+   width: 80%;
+   margin: auto;
+   margin-top: 1rem;
+ 
+ }
+ .numbers h1 {
+   font-size: 45px;
+   margin-bottom: 2rem;
+   color: rgb(123, 123, 240);
+}
+hr {
+   width: 80%;
+   margin: auto;
+   margin-top: 4rem;
+   margin-bottom: 3rem;
+ border: none;
+   border-top: 2px solid rgb(236, 136, 153);
+}
+
+.services {
+   display: flex;
+   padding-top: 2rem;
+   padding-bottom: 2rem;
+}
+
+.serve {
+   display: flex;
+   padding-bottom: 2rem;
+}
+.banner-container {
+   width: 100%;
+   justify-content: center;
+   margin: auto;
+   background-color: #BBE0D8;
+   gap: 50px;
+   padding-left: 10%;
+}
