@@ -1,67 +1,75 @@
 * {
-    padding: 0%;
-    margin: 0%;
- }
+   padding: 0%;
+   margin: 0%;
+}
 
- nav {
-    background-color: rgba(255, 255, 255, 0.014);
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 30px;
-    position: fixed;
-    top: 0%;
-    left: 0%;
-    right: 0%;
+nav {
+   background-color: #bbe0d857;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   padding: 15px;
+   position: fixed;
+   top: 0%;
+   left: 0%;
+   right: 0%;
 
 
 
- }
- .name {
-    font-size: 30px;
- }
+}
 
- #nav-item {
-    display: flex;
-    gap: 70px;
-    padding-left: 140px;
- }
+.name {
+   font-size: 30px;
+}
 
- .list-item {
-    list-style-type: none;
-    
- }
+#nav-item {
+   display: flex;
+   gap: 100px;
+   padding-left: 140px;
+}
 
- .list-item:hover {
-   background-color:pink;
+.list-item {
+   list-style-type: none;
+   gap: 50px;
+
+}
+
+.list-item:hover {
+   background-color: pink;
    padding: 5px 10px;
- }
- .list-items {
-   list-style-type:none ;
- }
- .list-items:hover {
+}
+
+.list-items {
+   list-style-type: none;
+}
+
+.list-items:hover {
    background-color: rgb(220, 220, 240);
    padding: 5px 10px;
- }
+}
+.list-it {
+   color: white;
+}
 
- nav a {
-    text-decoration: none;
-    color: white;
-    font-size: 15px;
- }
+nav a {
+   text-decoration: none;
+   color: white;
+   font-size: 15px;
+}
 
- 
- header {
-    background-image:url('../assets/images/image60.jpg');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    height: 100vh;
-    padding-top: 20%;
 
- }
+header {
+   background-image: url('../assets/images/image60.jpg');
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+   height: 100vh;
+   padding-top: 20%;
+
+}
+
 button {
-   background-color:white;
+   background-color: white;
    color: gray;
    font-size: 14px;
    border: none;
@@ -70,37 +78,46 @@ button {
    display: inline-block;
    border-radius: 12px;
    cursor: pointer;
- }
+}
 
- .button:hover {
+.button:hover {
    background-color: pink;
    color: white;
 }
+
 .Hero {
    text-align: justify;
-    color: white;
-    margin-top: 5px;
-    padding-left: 200px;
+   color: white;
+   margin-top: 5px;
+   padding-left: 200px;
 }
+
 .Hero-head {
    margin-bottom: 1rem;
    font-size: 20px;
    font-style: italic;
- 
+
 }
-.Hero h1{
+
+.Hero h1 {
    font-size: 80px;
 }
+
 .Hero h4 {
-   font-size: 30px; 
-   margin-bottom:1rem;
+   font-size: 30px;
+   margin-bottom: 1rem;
 }
+
 .list-it {
-   list-style-type:none ;
-   margin-bottom: 0.6rem;
-   
-} 
-.li a {
+   list-style-type: none;
+   margin-bottom: 0.8rem;
+
+}
+.list-it:hover {
+   color: gray;
+}
+
+.Hero a {
    color: white;
 }
 
@@ -109,6 +126,7 @@ button {
    padding-left: 10%;
    padding-right: 10%;
 }
+
 .flex-container {
    display: flex;
    padding-top: 130px;
@@ -117,20 +135,24 @@ button {
    padding-bottom: 130px;
 
 }
-.text-container1 h4{
+
+.text-container1 h4 {
    font-size: 50px;
    margin-bottom: 1rem;
    color: rgb(236, 136, 153);
-   
+
 }
+
 .text-container1 {
    width: 50%;
    color: gray;
 }
+
 .text-container2 {
    width: 50%;
    color: gray;
 }
+
 .numbers {
    display: flex;
    justify-content: space-between;
@@ -139,37 +161,239 @@ button {
    width: 80%;
    margin: auto;
    margin-top: 1rem;
- 
- }
- .numbers h1 {
+
+}
+
+.numbers h1 {
    font-size: 45px;
    margin-bottom: 2rem;
-   color: rgb(123, 123, 240);
+   color: rgba(159, 159, 235, 0.671);
 }
+
 hr {
    width: 80%;
    margin: auto;
    margin-top: 4rem;
    margin-bottom: 3rem;
- border: none;
+   border: none;
    border-top: 2px solid rgb(236, 136, 153);
 }
 
 .services {
    display: flex;
-   padding-top: 2rem;
-   padding-bottom: 2rem;
+   padding-top: 3rem;
+   padding-bottom: 3rem;
+   margin-bottom: 5rem;
+   margin-top: 4rem;
+   justify-content: space-between;
+   padding-right: 10%;
+   gap: 20px;
+   color: gray;
 }
 
 .serve {
    display: flex;
-   padding-bottom: 2rem;
+   padding-bottom: 4rem;
+   justify-content: space-between;
+   padding-right: 10%;
+   gap: 20px;
+   color: gray;
+
 }
+
 .banner-container {
-   width: 100%;
+   width: 90%;
    justify-content: center;
    margin: auto;
-   background-color: #BBE0D8;
+   background-color: #bbe0d850;
    gap: 50px;
    padding-left: 10%;
+   justify-content: space-between;
+   margin-top: 10rem;
+}
+
+.heading {
+   text-align: center;
+   font-size: 50px;
+   color: rgb(236, 136, 153);
+   padding-top: 100px;
+
+}
+.services h1{
+   font-size: 20px;
+   color: rgb(236, 136, 153);
+   margin-bottom: 1.5rem;
+}
+.serve h1{
+   font-size:20px ;
+   color: rgb(236, 136, 153);
+   margin-bottom: 1.5rem;
+}
+
+.flex-list {
+   display: flex;
+   list-style-type: none;
+   padding: 0;
+   margin: 0;
+}
+
+.flex-list li {
+   margin-right: 20px;
+}
+
+#naver-item {
+   display: flex;
+   gap: 60px;
+   padding-left: 20%;
+   font-size: 20px;
+   margin-bottom: 3rem;
+   margin-right: 10rem;
+  
+   
+}
+.li-item {
+   list-style-type: none;
+
+}
+.li-item:hover {
+   background-color: pink;
+   padding: 5px 10px;
+
+}
+.nav2 {
+   margin-top: 10rem;
+   text-align: center;
+}
+.nav2 a
+{ text-decoration: none;
+   color: gray;
+   font-size: 20px;
+   
+}
+.nav2 h1 {
+   margin-bottom: 3rem;
+   font-size: 50px;
+   color:rgb(236, 136, 153) ;
+}
+
+
+body {
+   font-family: Arial, sans-serif;
+   background-color: #f9f9f9;
+}
+
+.portfolio {
+   display: grid;
+   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Responsive grid */
+   gap: 20px;
+   padding: 20px;
+   margin-top: 0.5rem;
+}
+
+.portfolio-item {
+   position: relative;
+   overflow: hidden;
+   background-color:  #aee9db3b;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+   padding: 15px;
+   transition: transform 0.3s ease-in-out;
+}
+
+.portfolio-item img {
+   max-width: 100%;
+   height: auto;
+   display: block;
+   margin-bottom: 10px;
+}
+
+.portfolio-item h3 {
+   font-size: 18px;
+   color: pink; /* Style the title like in the image */
+   margin-bottom: 5px;
+}
+
+.portfolio-item p {
+   color: grey;
+   font-size: 14px;
+}
+
+.portfolio-item:hover {
+   transform: translateY(-5px);
+}
+
+/* Overlay with icons */
+.overlay {
+   position: absolute;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   left: 0;
+   background-color: pink; /* Semi-transparent orange */
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   opacity: 0;
+   transition: opacity 0.3s ease;
+}
+
+.portfolio-item:hover .overlay {
+   opacity: 1;
+}
+
+.overlay i {
+   font-size: 24px;
+   color:#fff ;
+}
+
+/* Adjust second title color */
+.portfolio-item:nth-child(2) h3, 
+.portfolio-item:nth-child(4) h3 {
+   color: black; /* Black color for specific items */
+}
+
+/* Optional: Icon for the last portfolio item */
+.portfolio-item:nth-child(4) .overlay {
+   background-color: pink; /* A slightly different orange for hover */
+}
+
+.buttons {
+   background-color: rgb(236, 136, 153);
+   color: white;
+   font-size: 20px;
+   border: none;
+   padding: 20px 60px;
+   text-align: center;
+   display: inline-block;
+   border-radius: 5px;
+   cursor: pointer;
+   margin-top: 10rem;
+   
+}
+
+.buttons:hover {
+   background-color: #BBE0D8;
+   color: white;
+}
+.numbers h4{
+   color: gray;
+}
+.numbers p{
+   color: gray;
+   font-size: 15px;
+}
+
+.social-icons {
+   display: flex;
+   gap: 30px; /* Space between icons */
+   margin-top: 3rem;
+}
+
+.social-icons a {
+   text-decoration: none;
+   color: white; /* Default color */
+   font-size: 24px; /* Icon size */
+}
+
+.social-icons a:hover {
+   color: gray; /* Change color on hover */
 }
