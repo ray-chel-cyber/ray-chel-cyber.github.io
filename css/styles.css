@@ -125,6 +125,7 @@ button {
    display: flex;
    padding-left: 10%;
    padding-right: 10%;
+   margin-bottom: 1rem;
 }
 
 .flex-container {
@@ -171,9 +172,9 @@ button {
 }
 
 hr {
-   width: 80%;
+   width: 90%;
    margin: auto;
-   margin-top: 4rem;
+   margin-top: 3rem;
    margin-bottom: 3rem;
    border: none;
    border-top: 2px solid rgb(236, 136, 153);
@@ -243,8 +244,8 @@ hr {
 
 #naver-item {
    display: flex;
-   gap: 60px;
-   padding-left: 20%;
+   align-items: center;
+  gap: 5%;
    font-size: 20px;
    margin-bottom: 3rem;
    margin-right: 10rem;
@@ -368,6 +369,7 @@ body {
    cursor: pointer;
    margin-top: 10rem;
    
+   
 }
 
 .buttons:hover {
@@ -396,4 +398,314 @@ body {
 
 .social-icons a:hover {
    color: gray; /* Change color on hover */
+}
+
+.tons {
+   align-items: center;
+}
+
+#education {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+   
+    
+}
+
+h2 {
+    text-align: center;
+    color: rgb(236, 136, 153);
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.education-item {
+    margin-bottom: 30px;
+}
+
+.education-item h3 {
+    font-size: 1.5em;
+    color: rgb(236, 136, 153);
+    margin-bottom: 5px;
+}
+
+.institution {
+    color: gray;
+}
+
+.year {
+    color: #999;
+    margin-bottom: 10px;
+}
+
+.description {
+    color: gray;
+    line-height: 1.6;
+}
+
+#education {
+   max-width: 900px;
+   margin: 80px auto;
+   padding: 20px;
+}
+
+h2 {
+   text-align: center;
+   font-size: 2.5em;
+   color: rgb(236, 136, 153);
+   margin-bottom: 40px;
+   text-transform: uppercase;
+   letter-spacing: 3px;
+}
+
+.timeline {
+   position: relative;
+   padding: 10px 0;
+   margin: 0 auto;
+   border-left: 4px solid rgb(236, 136, 153);
+}
+
+.education-item {
+   position: relative;
+   margin-bottom: 40px;
+}
+
+.education-item::before {
+   content: "";
+   position: absolute;
+   left: -10px;
+   top: 0;
+   width: 20px;
+   height: 20px;
+   background-color: rgb(236, 136, 153);
+   border-radius: 50%;
+   border: 4px solid #fff;
+}
+
+.education-content {
+   background-color: #fff;
+   padding: 20px;
+   margin-left: 30px;
+   border-radius: 10px;
+   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+   transition: transform 0.3s ease;
+}
+
+.education-content:hover {
+   transform: translateY(-10px);
+}
+
+h3 {
+   font-size: 1.8em;
+   color: rgb(236, 136, 153);
+   margin-bottom: 10px;
+}
+
+.institution {
+   font-style: italic;
+   font-size: 1.2em;
+   color: #555;
+   margin-bottom: 5px;
+}
+
+.year {
+   color: #999;
+   font-weight: 500;
+   margin-bottom: 15px;
+}
+
+.description {
+   line-height: 1.7;
+   color: #333;
+   font-size: 1.1em;
+}
+
+@media (max-width: 768px) {
+   .education-content {
+       margin-left: 20px;
+   }
+
+   h2 {
+       font-size: 2em;
+   }
+
+   h3 {
+       font-size: 1.6em;
+   }
+
+   .year, .institution, .description {
+       font-size: 1em;
+   }
+}
+
+
+.message-form-section {
+   width: 100%;
+   max-width: 400px;
+   padding: 100px;
+   text-align: center;
+   margin-top: 40px;
+}
+
+h2 {
+   font-size: 2em;
+   margin-bottom: 30px;
+   color: rgb(236, 136, 153) ;
+}
+
+.message-form {
+   width: 100%;
+}
+
+.form-group {
+   margin-bottom: 20px;
+   text-align: left;
+}
+
+.form-group label {
+   display: block;
+   font-weight: bold;
+   margin-bottom: 5px;
+   color:  rgb(236, 136, 153);
+}
+
+.form-input, .form-textarea {
+   width: 100%;
+   padding: 15px;
+   font-size: 1em;
+   border: 1px solid #ddd;
+   border-radius: 5px;
+   
+   color: #333;
+   transition: border-color 0.3s ease;
+}
+
+.form-input::placeholder, .form-textarea::placeholder {
+   color: #bbb;
+}
+
+.form-input:focus, .form-textarea:focus {
+   border-color:  rgb(236, 136, 153); /* Blue border on focus */
+   outline: none;
+}
+
+.form-textarea {
+   resize: none;
+}
+
+.form-btn {
+   width: 100%;
+   background-color:  rgb(236, 136, 153); /* Blue button */
+   color: #fff;
+   padding: 15px;
+   font-size: 1.1em;
+   border: none;
+   border-radius: 5px;
+   cursor: pointer;
+   transition: background-color 0.3s ease;
+}
+
+.form-btn:hover {
+   background-color: grey; /* Darker blue on hover */
+}
+
+#services {
+   padding: 50px 20px;
+   background-color: #ffffff;
+   text-align: center;
+}
+
+h2 {
+   font-size: 2.5em;
+   color: rgb(236, 136, 153);;
+   margin-bottom: 40px;
+   letter-spacing: 2px;
+   text-transform: uppercase;
+}
+
+.services-container {
+   display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+   gap: 20px;
+   max-width: 1200px;
+   margin: 0 auto;
+}
+
+.service-card {
+   background-color: #fff;
+   padding: 30px;
+   border-radius: 10px;
+   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+   text-align: center;
+   flex: 1 1 calc(33.333% - 20px); /* Responsive design */
+   max-width: 33%;
+   transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service-card:hover {
+   transform: translateY(-10px);
+   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+
+.service-card i {
+   font-size: 3em;
+   color: rgb(236, 136, 153); /* Icon color */
+   margin-bottom: 15px;
+}
+
+.service-card h3 {
+   font-size: 1.5em;
+   color: gray;
+   margin-bottom: 15px;
+}
+
+.service-card p {
+   font-size: 1em;
+   color: #666;
+   line-height: 1.6;
+}
+
+/* Media Queries for smaller screens */
+@media (max-width: 768px) {
+   .service-card {
+       flex: 1 1 100%;
+       max-width: 100%;
+   }
+
+   h2 {
+       font-size: 2em;
+   }
+}
+
+.portfolio-section {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+}
+
+.portfolio-card {
+   background-color: #ffffff;
+   border-radius: 10px;
+   overflow: hidden;
+   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+   width: 350px;
+   text-align: center;
+}
+
+.portfolio-card img {
+   width: 100%;
+   height: auto;
+   display: block;
+}
+
+/* .card-content {
+   padding: 20px;
+} */
+
+.contact {
+   display: flex;
+
+   margin-bottom: 1rem;
 }
